@@ -1,0 +1,106 @@
+.header {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.header .logo-side {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.header .logo-side .logo {
+    width: 100px;
+    margin: 24px;
+}
+.header .links-side {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start space-around;
+}
+.general-info {
+    background-color: #14C3F4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+.today {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    margin: 24px;
+}
+.today-updates {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+    margin: 24px;
+}
+.headlines {
+    background-color: #FFE381;
+}
+.extended-forecast {
+    background-color: #C1F4FF;
+}
+.snow-risk {
+    background-color: #BBE1EA;
+}
+.photo-of-the-week {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    margin: 24px;
+}
+.photo {
+    color: white;
+    background-color: #14C3F4;
+    width: 400px;
+    padding: 64px 48px;
+}
+.photo-description {
+    width: 600px;
+    margin: 64px;
+    text-align: center;
+}
+.other-link {
+    background-color: #002D56;
+    color: #FFFFFF;
+}
+.other-content {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    margin: 24px;
+}
+.other-links {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+    margin: 24px;
+}
+.footer {
+    background-color: #002D56;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .logo {
+    width: 100px;
+    margin: 24px;
+}
