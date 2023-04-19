@@ -1,25 +1,3 @@
-.header {
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-}
-.header .logo-side {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-}
-.header .logo-side .logo {
-    width: 100px;
-    margin: 24px;
-}
-.header .links-side {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start space-around;
-}
 .general-info {
     background-color: #14C3F4;
     display: flex;
@@ -91,16 +69,5 @@
     justify-content: space-around;
     align-items: center;
     padding: 24px;
-    margin: 24px;
-}
-.footer {
-    background-color: #002D56;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-.footer .logo {
-    width: 100px;
     margin: 24px;
 }

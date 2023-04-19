@@ -2,6 +2,28 @@
     font-family: sans-serif;
     color: #002D56;
 }
+.header {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.header .logo-side {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.header .logo-side .logo {
+    width: 100px;
+    margin: 24px;
+}
+.header .links-side {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start space-around;
+}
 .page-link {
     margin: 0 24px;
     text-decoration: none;
@@ -29,4 +51,42 @@
     font-size: 24px;
     color: #002D56;
     font-family: 'Courier New', Courier, monospace;
+}
+.banner {
+    background-color: #002D56;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 24px;
+    font-weight: 700;
+}
+.banner-title {
+    color: #FFFFFF;
+}
+.tabs {
+    background-color: #FFC700;
+    color: #002D56;
+    width: 100px;
+    padding: 24px 12px;
+    font-weight: 700;
+    margin: 24px;
+    text-align: center;
+    border-radius: 10px;
+}
+.placeholder {
+    color: white;
+    background-color: #14C3F4;
+    width: 400px;
+    padding: 64px 48px;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #002D56;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .logo {
+    width: 100px;
+    margin: 24px;
 }
