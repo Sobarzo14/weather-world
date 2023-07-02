@@ -1,0 +1,45 @@
+* {
+    font-family: Futura,Trebuchet MS, Arial, sans-serif;
+}
+.header {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    position: sticky;
+}
+.header .logo-side {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.header .logo-side .logo {
+    width: 100px;
+    margin: 24px;
+}
+.header .links-side {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start space-around;
+}
+.page-link {
+    margin: 0 24px;
+    text-decoration: none;
+    color: #002D56;
+    font-size: 24px; 
+}
+.footer {
+    width: 100%;
+    background-color: #002D56;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .logo {
+    width: 100px;
+    margin: 24px;
+}

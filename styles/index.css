@@ -1,10 +1,23 @@
 .general-info {
-    background-color: #14C3F4;
+    background: linear-gradient(#FFFFFF, #FFE381);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 24px;
+}
+.welcome-sign{
+    padding: 24px;
+    margin: 24px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.times-info{
+    font-size: 12pt;
+    font-weight: bold;
+}
+.times-info div{
+    margin: 10px;
 }
 .today {
     background-color: #FFFFFF;
