@@ -1,0 +1,44 @@
+.search-engine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+.search-bar {
+    width: 100%;
+    margin: 20px;
+}
+.search-label {
+    font-size: larger;
+    font-weight: bold;
+    margin: 20px;
+}
+.people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 70%;
+}
+.person {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 50px 0;
+}
+.person-image {
+    margin: 20px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.person-name {
+    font-size: larger;
+    font-weight: bold;
+}

@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../styles/page-layout.css">
-    <link rel="stylesheet" type="text/css" href="../styles/components.css" />
-    <link rel="stylesheet" type="text/css" href="../styles/contact.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="../styles/page-layout.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/components.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/contact.css"/>
+    <script src="https://kit.fontawesome.com/121ae4b287.js" crossorigin="anonymous"></script>
 </head>
 <header class="header">
     <div class="logo-side">
-        <img src="../assets/weather-world-logo.png" alt="Weather World Logo" class="logo"/>
+        <a href="/">
+            <img src="../assets/weather-world-logo.png" alt="Weather World Logo" class="logo"/>
+        </a>
     </div>
     <div class="links-side">
         <a href="#" class="about page-link">About</a>
@@ -27,26 +29,23 @@
         <div class="social">
             <div class="title">Follow Us On...</div>
             <div class="social-links">
-                <a href="#" class="social-link">
-                    <i class="material-icons"></i>
-                </a>
-                <a href="#" class="social-link">
-                    <i class="material-icons">facebook</i>
-                </a>
-                <a href="#" class="social-link">
-                    <i class="material-icons">twitter</i>
-                </a>
-                <a href="#" class="social-link">
-                    <i class="material-icons">camera_alt</i>
-                </a>
+                <a href="#" class="fa fa-brands fa-instagram"></a>
+                <a href="#" class="fa fa-brands fa-youtube"></a>
+                <a href="#"  class="fa fa-brands fa-facebook"></a>
+                <a href="#" class="fa fa-brands fa-twitter"></a>
             </div>
         </div>
-        <div class="form">
-            <div class="title"></div>
+        <div class="contact-form">
+            <div class="title">Send Us a Message!</div>
             <form action="">
-                <input type="text">
-                <input type="text">
-                <input type="textarea">
+                <label for="name-input">Name</label>
+                <input type="text" id="name-input">
+                <label for="email-input">Email</label>
+                <input type="text" id="email-input">
+                <label for="title-input">Title</label>
+                <input type="text" id="title-input">
+                <label for="message-input">Message</label>
+                <input type="textarea" id="message-input">
             </form>
         </div>
     </div>
