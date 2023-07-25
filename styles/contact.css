@@ -1,68 +1,102 @@
+* {
+    margin: 5px;
+    box-sizing: border-box;
+}
+.content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
 .social {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
-.title
-.social-links {
+.social .title {
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
 }
-.social-link {
-    width: 200px;
-    height: 200px;
-    background-color: #333;
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
 }
-i {
-    font-size: 100px;
-    color: #fff;
+.fa {
+    color: white;
+    width: 100px;
+    height: 100px;   
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+.fa-instagram {
+    background-color: #e1306c;
+}
+.fa-facebook {
+    background-color: #3b5998;
+}
+.fa-youtube {
+    background-color: #c4302b;
+}
+.fa-twitter {
+    background-color: #1da1f2;
+}
+.fa:hover {
+    opacity: 0.7;
 }
 .contact-form {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
-.contact-form form {
+.personal-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.personal-info input {
+    width: 400px;
+    margin: 10px;
+}
+.personal-info label {
+    margin-right: 20px;
+}
+.content-info {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
 }
-.instagram {
-    background-color: #e1306c;
+#name-input {
+    width: 20%;
 }
-.facebook {
-    background-color: #3b5998;
+#email-input {
+    width: 30%;
 }
-.youtube {
-    background-color: #c4302b;
+#title-input {
+    width: 60%;
 }
-.twitter {
-    background-color: #1da1f2;
+#message-input {
+    width: 60%;
+    height: 200px;
 }
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
