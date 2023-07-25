@@ -27,3 +27,6 @@
     align-items: center;
     width: 40%;
 }
+.how-we-started, .where-we-are-now {
+    margin: 24px;
+}
