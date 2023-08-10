@@ -1,86 +1,137 @@
+
 .general-info {
     background: linear-gradient(#FFFFFF, #FFE381);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 24px;
+    width: 100%;
 }
 .welcome-sign{
     padding: 24px;
-    margin: 24px;
-    font-size: 20pt;
+    font-size: 16pt;
     font-weight: bold;
 }
 .times-info{
-    font-size: 12pt;
-    font-weight: bold;
-}
-.times-info div{
-    margin: 10px;
-}
-.today {
-    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px;
-    margin: 24px;
 }
-.today-updates {
-    background-color: #FFFFFF;
+.title-content{
+    margin: 8px;
+}
+.today {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
+    justify-content: start;
     padding: 24px;
     margin: 24px;
 }
-.headlines {
-    background-color: #FFE381;
-}
-.extended-forecast {
-    background-color: #C1F4FF;
-}
-.snow-risk {
-    background-color: #BBE1EA;
+.page-link {
+    margin: 24px;
 }
 .photo-of-the-week {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 24px;
     margin: 24px;
 }
-.photo {
-    color: white;
-    background-color: #14C3F4;
-    width: 400px;
-    padding: 64px 48px;
-}
 .photo-description {
-    width: 600px;
-    margin: 64px;
+    width: 100%;
+    margin: 24px;
+    font-size: 12pt;
     text-align: center;
 }
-.other-link {
-    background-color: #002D56;
-    color: #FFFFFF;
-}
 .other-content {
-    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 24px;
     margin: 24px;
 }
-.other-links {
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px;
-    margin: 24px;
+.other-content-title {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .general-info {
+        flex-direction: row;
+        padding: 24px;
+    }
+    .times-info{
+        font-size: 12pt;
+        font-weight: bold;
+    }
+    .times-info div{
+        margin: 10px;
+    }
+    .today {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+        margin: 24px;
+    }
+    .today-updates {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 24px;
+        margin: 24px;
+    }
+    .headlines {
+        background-color: #FFE381;
+    }
+    .extended-forecast {
+        background-color: #C1F4FF;
+    }
+    .snow-risk {
+        background-color: #BBE1EA;
+    }
+    .photo-of-the-week {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+        margin: 24px;
+    }
+    .photo {
+        color: white;
+        background-color: #14C3F4;
+        width: 400px;
+        padding: 64px 48px;
+    }
+    .photo-description {
+        width: 600px;
+        margin: 64px;
+        text-align: center;
+    }
+    .other-link {
+        background-color: #002D56;
+        color: #FFFFFF;
+    }
+    .other-content {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+        margin: 24px;
+    }
+    .other-links {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 24px;
+        margin: 24px;
+    }
 }

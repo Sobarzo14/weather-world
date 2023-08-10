@@ -1,36 +1,69 @@
 * {
     font-family: Futura,Trebuchet MS, Arial, sans-serif;
 }
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
 .header {
+    background-color: #FFFFFF;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    height: 100%;
+    left: 100%;
+}
+.active {
+    left: 0;
+}
+.mobile-header {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
     top: 0;
-    position: sticky;
+    position: fixed;
+    width: 100%;
 }
-.header .logo-side {
+.header .logo-side, .mobile-header .logo-side {
     flex: 1;
     display: flex;
     flex-direction: row;
     justify-content: start;
 }
-.header .logo-side .logo {
+.header .logo-side .logo, .mobile-header .logo-side .logo{
     width: 100px;
     margin: 24px;
 }
 .header .links-side {
     flex: 1;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mobile-header .links-side {
+    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: start space-around;
+    padding: 0 24px;
 }
-.page-link {
-    margin: 0 24px;
+.header .page-link {
+    margin: 24px;
     text-decoration: none;
     color: #002D56;
-    font-size: 24px; 
+    font-size: 24px;
 }
+.menu-icon {
+    width: 32px;
+    margin: 32px;
+    font-size: 24pt;
+    color: #002D56;
+}
+
 .footer {
     width: 100%;
     background-color: #002D56;
@@ -43,3 +76,50 @@
     width: 100px;
     margin: 24px;
 }
+
+@media screen and (min-width: 768px) {
+    .mobile-header {
+        display: none;
+    }
+    .header .logo-side .logo {
+        width: 100px;
+        margin: 24px;
+    }
+    
+    .header {
+        flex-direction: column;
+        top: 0;
+        position: fixed;
+    }
+    .header .logo-side {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .header {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        top: 0;
+        position: sticky;
+        width: 100%;
+    }
+    
+    .header .links-side {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start space-around;
+    }
+    .page-link {
+        margin: 0 24px;
+        text-decoration: none;
+        color: #002D56;
+        font-size: 24px; 
+    }
+}    
+
+
+

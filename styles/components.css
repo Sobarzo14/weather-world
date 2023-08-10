@@ -36,6 +36,7 @@
     color: #002D56;
 }
 .tabs {
+    text-decoration: none;
     background-color: #FFC700;
     color: #002D56;
     width: 100px;
@@ -45,6 +46,13 @@
     text-align: center;
     border-radius: 10px;
 }
+.tabs:hover {
+    background-color: #FFE381;
+}
+.tabs.active {
+    text-decoration: none;
+    background-color: #FFE381;
+}
 .placeholder {
     color: white;
     background-color: #14C3F4;
@@ -52,3 +60,9 @@
     padding: 64px 48px;
     border-radius: 10px;
 }
+
+@media screen and (min-width: 768px) {
+    .block-link {
+        width: 30%;
+    }
+} 
