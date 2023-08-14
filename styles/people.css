@@ -42,3 +42,11 @@
     font-size: larger;
     font-weight: bold;
 }
+@media screen and (max-width: 768px) {
+    .person {
+        flex-direction: column;
+    }
+    .person-image {
+        width: 70%;
+    }
+}
