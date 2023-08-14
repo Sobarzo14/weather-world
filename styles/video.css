@@ -12,7 +12,9 @@
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
 }
-.video-description {
-    width: 50%;
-    margin: 100px;
+@media screen and (max-width: 768px) {
+    .video {
+        width: 400px;
+        height: 220px;
+    }
 }

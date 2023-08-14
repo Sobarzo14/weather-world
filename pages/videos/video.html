@@ -6,18 +6,31 @@
     <link rel="stylesheet" href="../../styles/page-layout.css">
     <link rel="stylesheet" href="../../styles/components.css">
     <link rel="stylesheet" href="../../styles/video.css">
+    <script src="https://kit.fontawesome.com/121ae4b287.js" crossorigin="anonymous"></script>
     <title>Video</title>
 </head>
-<header class="header">
+<header class="mobile-header">
     <div class="logo-side">
         <a href="/">
-            <img src="../../assets/weather-world-logo.png" alt="Weather World Logo" class="logo"/>
+            <img src="/../assets/weather-world-logo.png" alt="Weather World Logo" class="logo"/>
         </a>
     </div>
     <div class="links-side">
-        <a href="../about.html" class="about page-link">About</a>
-        <a href="../videos.html" class="videos page-link">Videos</a>
-        <a href="../contact.html" class="contact page-link">Contact</a>
+        <div class="menu-icon" id="menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+    </div>
+</header>
+<header class="header" id="header">
+    <div class="logo-side">
+        <a href="/">
+            <img src="/../assets/weather-world-logo.png" alt="Weather World Logo" class="logo"/>
+        </a>
+    </div>
+    <div class="links-side">
+        <a href="/../pages/about.html" class="about page-link">About</a>
+        <a href="/../pages/videos.html" class="videos page-link">Videos</a>
+        <a href="/../pages/contact.html" class="contact page-link">Contact</a>
     </div> 
 </header>
 <body>
@@ -26,14 +39,10 @@
     </div>
     <div class="video-container">
         <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/9R83kCCaqGw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div class="video-description">
-            <div class="title">Video</div>
-            <div class="description message">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis nobis, laboriosam praesentium commodi eaque consequatur dolorem est molestias iste ipsa neque natus nemo cupiditate ut asperiores! Temporibus, autem recusandae?
-            Voluptas accusamus quis ratione assumenda molestias. Officiis tenetur ratione quaerat sint corporis laboriosam explicabo distinctio quae quasi, soluta harum molestiae! Inventore tempora quibusdam exercitationem. Accusantium officia distinctio eos voluptate labore.</div>
-        </div>
     </div>
 </body>
 <footer class="footer">
     <img src="../../assets/weather-world-logo.png" alt="Weather World Logo" class="logo"/>
 </footer>
+<script src="../../scripts/sidebar.js"></script>
 </html>

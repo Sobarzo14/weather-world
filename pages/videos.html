@@ -38,13 +38,13 @@
         <div class="banner">
             <div class="banner-title">Videos</div>
             <div class="tab-group">
-                <div class="tabs">#Headlines</div>
-                <div class="tabs">Forecasts</div>
-                <div class="tabs">Climate</div>
-                <div class="tabs">Other</div>
+                <a href="#headlines" class="tabs">#Headlines</a>
+                <a href="forecasts" class="tabs">Forecasts</a>
+                <a href="climate" class="tabs">Climate</a>
+                <a href="other" class="tabs">Other</a>
             </div>
         </div>
-        <div class="headlines">
+        <div id="headlines" class="headlines">
             <div class="placeholder"></div>
             <div class="description">
                 <div class="title">#Headlines</div>
@@ -52,7 +52,7 @@
             </div>
         </div>
         <hr class="page-break">
-        <div class="section forecasts">
+        <div id="forecasts" class="section forecasts">
             <div class="title">Forecasts</div>
             <div class="video-grid">
                 <div class="video-container">
@@ -74,7 +74,7 @@
             </div>
         </div>
         <hr class="page-break">
-        <div class="section climate">
+        <div id="climate" class="section climate">
             <div class="title">Climate</div>
             <div class="video-grid">
                 <div class="video-container">
@@ -88,7 +88,7 @@
             </div>
         </div>
         <hr class="page-break">
-        <div class="section interviews">
+        <div id="interviews" class="section interviews">
             <div class="title">Interviews</div>
             <div class="video-grid">
                 <div class="video-container">
@@ -105,4 +105,5 @@
     <footer class="footer">
         <img src="../assets/weather-world-logo.png" alt="Weather World Logo" class="logo"/>
     </footer>
+    <script src="../scripts/sidebar.js"></script>
 </html>
