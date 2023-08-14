@@ -1,3 +1,21 @@
+
+@media screen and (max-width: 768px) {
+    .banner .tab-group{
+        flex-direction: column;
+        margin: 0px;
+
+    }
+    .history-info {
+        width: 100%;
+        flex-direction: column;
+    }
+    .history-text {
+        width: 100%;
+    }
+    .how-we-started, .where-we-are-now {
+        margin: 0;
+    }
+}
 .banner {
     display: flex;
     flex-direction: column;
@@ -11,22 +29,28 @@
 }
 .history-info {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 48px;
-}
-.history-display {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    
 }
+
 .history-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    justify-content: center;
+    width: 70%;
 }
+
 .how-we-started, .where-we-are-now {
-    margin: 24px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+} 
+.how-we-started div, .where-we-are-now div {
+    margin: 12px;
 }

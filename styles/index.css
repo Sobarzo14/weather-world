@@ -1,5 +1,6 @@
 
 .general-info {
+    padding-top: 16px;
     background: linear-gradient(#FFFFFF, #FFE381);
     display: flex;
     flex-direction: column;

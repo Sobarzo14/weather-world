@@ -26,7 +26,7 @@ body {
     display: flex;
     flex-direction: row;
     top: 0;
-    position: fixed;
+    position: sticky;
     width: 100%;
 }
 .header .logo-side, .mobile-header .logo-side {
@@ -89,7 +89,7 @@ body {
     .header {
         flex-direction: column;
         top: 0;
-        position: fixed;
+        position: sticky;
     }
     .header .logo-side {
         flex: 1;
