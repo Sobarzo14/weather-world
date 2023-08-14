@@ -37,12 +37,32 @@
     <div class="banner">
         <div class="banner-title">Two Day Forecast</div>
     </div>
-    <div class="video-container">
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/9R83kCCaqGw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="picture-container">
+        <img src="http://met-cms-7.vmhost.psu.edu/WeatherWorld/ww_tonight.jpg" title="Tonight" width="720" height="405" alt="Tonight Forecast">
+        <img src="http://met-cms-7.vmhost.psu.edu/WeatherWorld/ww_day1.jpg" title="Tomorrow" width="720" height="405" alt="Tomorrow Forecast">
+        <img src="http://met-cms-7.vmhost.psu.edu/WeatherWorld/ww_day2.jpg" title="Next Day" width="720" height="405" alt="Next Day Forecast">
     </div>
 </body>
 <footer class="footer">
     <img src="../../assets/weather-world-logo.png" alt="Weather World Logo" class="logo"/>
 </footer>
 <script src="../../scripts/sidebar.js"></script>
+<style>
+    .picture-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    @media screen and (min-width: 768px) {
+        .picture-container {
+            width: 70%;
+        }
+    }
+</style>
 </html>
