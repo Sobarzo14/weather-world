@@ -59,6 +59,48 @@
     width: 400px;
     padding: 64px 48px;
     border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headlines {
+    background-image: url(/../assets/thumbnails/Headlines_thumb_1280x720.png);
+}
+.wxyz {
+    background-image: url(/../assets/thumbnails/WxYz_thumb_1280x720.png);
+}
+.extended-forecast {
+    background-image: url(/../assets/thumbnails/Extended_thumb_1280x720.png);
+}
+.climate-watch {
+    background-image: url(/../assets/thumbnails/ClimateWatch_thumb_1280x720.png);
+}
+.interviews {
+    background-image: url(/../assets/thumbnails/Interviews_thumb_1280x720.png);
+}
+.on-demand {
+    background-image: url(/../assets/thumbnails/OnDemand_thumb_1280x720.png);
+}
+.week-trends {
+    background-image: url(/../assets/thumbnails/Week2Trends_thumb_1280x720.png);
+}
+.long-shots {
+    background-image: url(/../assets/thumbnails/Longshots_thumb_1280x720.png);
+}
+.weather-watercooler {
+    background-image: url(/../assets/thumbnails/WeatherWatercooler_thumb_1280x720.png);
+}
+.tropical-tracker {
+    background-image: url(/../assets/thumbnails/WaterWatch_thumb_1280x720.png);
+}
+.water-watch {
+    background-image: url(/../assets/thumbnails/SnowRisk_thumb_1280x720.png);
+}
+.snow-risk {
+    background-image: url(/../assets/thumbnails/SnowRisk_thumb_1280x720.png);
+}
+.two-day {
+    background-image: url(/../assets/thumbnails/2DayForecast_thumb_1280x720.png);
 }
 
 @media screen and (min-width: 768px) {

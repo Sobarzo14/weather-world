@@ -60,6 +60,10 @@
 .fa:hover {
     opacity: 0.7;
 }
+.fa-bars {
+    color: #002D56;
+    font-size: 24pt;
+}
 .contact-form {
     width: 100%;
     display: flex;
@@ -87,16 +91,13 @@
     flex-wrap: wrap;
     width: 100%;
 }
-#name-input {
-    width: 20%;
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
-#email-input {
-    width: 30%;
-}
-#title-input {
-    width: 60%;
-}
-#message-input {
-    width: 60%;
-    height: 200px;
+.email {
+    font-size: small;
+    text-decoration: none;
+    color: #1da1f2;
 }

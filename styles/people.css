@@ -42,11 +42,23 @@
     font-size: larger;
     font-weight: bold;
 }
+.tab-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width: 768px) {
     .person {
         flex-direction: column;
     }
     .person-image {
         width: 70%;
+    }
+    .tab-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
